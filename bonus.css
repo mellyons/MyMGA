@@ -1,0 +1,58 @@
+/*
+Melina Lyons
+Spring 2017
+
+
+Color Codes:
+White:         #FFF
+Mauve:		   #eoboff
+Beige          #F5F5DC
+Grey:		   #         
+Black          #333
+
+*/
+
+/*Header*/
+body {font-size:1.1em; background-color:#e0b0ff;}
+
+nav {width:25%; float:left; padding-top:1%}
+li {list-style-type:none;}
+a:link {text-decoration:none;}
+
+
+/* Classes*/
+.wrapper {width:92%; margin:0 auto; max-width:960px; background-color:#FFF;
+	padding:0 1%;}
+.clear {clear:both;}
+.logo {float:left; width:100%;}
+.heading {background-color:#333;}
+.heading li {list-style:none; display:inline;}
+.heading img {border:1px solid #ddd; border-radius:50%; padding:5px; width:50px;}
+.address {clear:left; width:95%; height:115px; margin:5px; border:3px solid; padding:1%; background-color:#C0C0C0;}
+.media {display:inline-block; width:98%; height:60px; margin:5px; border:3px solid;}
+.media li {display:inline; content:"/";}
+.columns {width:92%; margin:0 auto; content:"|";}
+.icons {margin-left:50%; border-left:1px solid grey; padding:2%;}
+
+
+/*IDs*/
+#events {float:left; list-style-type:none; max-width:50%;}
+#footer1 {display:inline-block; width:175px; height:175px; margin:5px; border:3px solid;}
+#footer2 {display:inline-block; width:175px; height:175px; margin:5px; border:3px solid;}
+#footer3 {display:inline-block; width:125px; height:160px; margin:5px; border:3px solid;}
+#footer4 {display:inline-block; width:175px; height:230px; margin:5px; border:3px solid;}
+#footer5 {display:inline-block; width:175px; height:145px; margin:5px; border:3px solid;}
+
+/*Footer*/
+#copyright {text-align:center; background-color:#C4028F; font-style:italic; border:solid;}
+
+/*Media Comments*/
+@media print {
+	header, nav, footer {display:none;}
+	#main {width:100%;}
+}
+
+@media screen and (min-width: 480px) {
+    #events {width:100%;}
+	#footer1{width:100%;}
+}
